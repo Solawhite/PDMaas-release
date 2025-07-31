@@ -7,6 +7,7 @@
     "test": "jest",
     "start": "node bin/start.js",
     "electron": "electron ./src/main",
+    "package-web": "node bin/build.js",
     "package-win": "npm run package-web && electron-builder --win ",
     "package-linux": "npm run package-web && electron-builder --linux",
     "package-all": "npm run package-web && electron-builder -mwl",
