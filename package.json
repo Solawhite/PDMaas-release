@@ -144,6 +144,7 @@
     "files": [
       "build/"
     ],
+    "extends": null,
     "npmRebuild": false,
     "asar": true,
     "asarUnpack": [
